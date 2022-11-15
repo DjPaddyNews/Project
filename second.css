@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 15.1vh;
+    color: white;
+}
+header h2{
+    position: absolute;
+    text-align: left;
+    margin: 20px;
+    left: 8%;
+}
+header img{
+    position: absolute;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+.links{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.links a{
+    position: relative;
+    left: 60%;
+    top: 40px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 28px;
+    transition: background-color 0.25s;
+}
+.links a:hover{
+    background-color: orangered;
+}
+.content{
+    text-decoration: underline;
+    text-decoration-thickness: 40px;
+    padding-top: 150px;
+    font-size: 40px;
+    color: black;
+    font-size: 60px;
+    font-weight: 800;
+}
+.first{
+    font-size: 80px;
+
+}
+
+.second{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+
+.third{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+.fourth{
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.submit a{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: rgb(230, 102, 17);
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 300px ;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.submit a:hover{
+    opacity: 0.7;
+
+}
